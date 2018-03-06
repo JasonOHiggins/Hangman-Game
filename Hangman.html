@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HangMan</title>
+
+
+    <script type="text/javascript" src="java.js"></script>
+
+
+</head>
+<body>
+
+    <script type="text/javascript" src="java.js"></script>
+
+    <h1>Hangman</h1>
+    <h2>Guess the Sports Car</h2>
+        <h3 id="blankword">_ _ _ _ _ _ _ _ _</h3><br>
+    <p>Letters Guessed: <span id="player-choice"></span></p><br>
+    <p>Guesses Left: <span id="guesses-left"></span></p>
+    <p>Wins: <span id="number-of-wins"></span></p>
+    <p>Losses: <span id="number-of-losses"></span></p>
+    
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- link to java -->
+<script src="java.js">
+
+    var
+
+    //Use key events to listen for the letters that your players will type //
+    document.onkeyup = function(event) {
+    // Determines which key was pressed.
+    var playerKeyPress = event.key;}
+    //display: Wins: (# of times user guessed the word correctly). //
+    var wins = 0;
+    var losses = 0;
+    var ties = 0;
+
+    //display: If the word is madonna, display it like this when the game starts: _ _ _ _ _ _ _. //
+
+    //display: As the user guesses the correct letters, reveal them: m a d o _  _ a. //
+
+    //display: Number of Guesses Remaining: (# of guesses remaining for the user). //
+
+     //display: Letters Already Guessed: (Letters the user has guessed, displayed like L Z Y H). //
+
+     //After the user wins/loses the game should automatically choose another word and make the user play it. //
+
+    // Set the inner HTML contents of the #game div to our html string
+    document.querySelector("#game").innerHTML = html;
+      }
+
+
+    </script>
